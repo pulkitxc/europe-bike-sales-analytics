@@ -48,68 +48,6 @@ europe-bike-sales-project/
 ├── README.md                         # This architecture document
 └── (charts and visualizations)       # Generated analysis images
 
-Here is your finalized, impeccably formatted markdown code block for your `README.md`. All section dividers, headers, bullet alignments, and mathematical expressions have been structurally optimized so it displays perfectly when you paste it into GitHub.
-
-```markdown
-# 🚴‍♂️ Europe Bike Sales Project: A Predictive Propensity Framework
-
-An end-to-end data exploration analyzing bicycle purchase propensity vectors across Europe, North America, and Pacific regions using Microsoft Excel and statistical modeling.
-
----
-
-## 📌 Project Overview
-
-This project analyzes a bike purchase propensity dataset containing 1,000 unique customer records to uncover the underlying operational drivers behind consumer buying decisions. The analysis bypasses superficial demographic assumptions and reveals that bike purchases are primarily dictated by transportation suitability and lifestyle flexibility rather than linear wealth metrics.
-
-The target variable `Purchased Bike` is highly balanced, showing a 48.1% conversion rate, establishing an ideal statistical baseline for high-fidelity segmentation, behavioral proxy modeling, and micro-segment targeting.
-
----
-
-## 📊 Dataset Environment
-
-* **File Name:** `Europe Bike Sales Project.xlsx`
-* **Total Volume:** 1,000 unique customer records
-
-### Core Data Attributes
-
-* **ID:** Unique customer identifier.
-* **Marital Status:** Standardized to Married or Single.
-* **Gender:** Standardized to Male or Female.
-* **Income:** Annual gross income listed in USD.
-* **Children:** Total number of dependents per household.
-* **Education:** Highest educational achievement level attained.
-* **Occupation:** Primary structural employment category.
-* **Home Owner:** Binary residential ownership tracker (Yes/No).
-* **Cars:** Quantified volume of vehicles owned per household.
-* **Commute Distance:** Spatial distance radius to the primary workplace.
-* **Region:** Geographic market segmentation (Europe / North America / Pacific).
-* **Age:** Customer age in years.
-* **Age Bracket:** Categorized age bands derived from continuous age vectors.
-* **Purchased Bike:** Target classification variable (Yes/No).
-
-### Functional Workbook Architecture
-
-* `bike_buyers`: Staging layer containing raw customer records.
-* `working sheet`: Cleaned analysis table featuring optimized text fields and engineered compound metrics.
-* `pivot_table`: Multi-axis aggregation layer summarizing sub-segment behaviors.
-* `Dashboard`: Central visual analytics interface utilized for stakeholder reviews.
-
----
-
-## 📂 Repository Structure
-
-```text
-europe-bike-sales-project/
-│
-├── Europe Bike Sales Project.xlsx    # Main dataset (Cleaned Working Sheet, Pivots & Dashboard)
-├── bike_sales_insights.xlsx          # Multi-sheet insights workbook (Correlations & Segments)
-├── README.md                         # This architecture document
-└── (charts and visualizations)       # Generated analysis images
-
-```
-
----
-
 ## 🛠️ Execution Pipeline & Methodology
 
 * **Data Cleaning:** Extracted raw customer inputs, standardized headers, and established explicit textual classifications to replace compressed shorthand strings (`M/F` to `Male/Female`; `M/S` to `Married/Single`).
@@ -288,6 +226,8 @@ $$\mathbf{Vehicular\ Density\ >\ Commute\ Distance\ >\ Household\ Constraints\ >
 
 This single diagnostic truth underpins the entire dataset, connecting every independent variable across the matrix.
 
----
+## 👤 Author & Repository Sign-Off
 
----
+This analysis stands as an exercise in clean, human-centric data storytelling. The entire pipeline was structured to filter out statistical noise and unmask the underlying lifestyle variables—such as asset density and spatial constraints—that govern real-world purchasing decisions.
+
+*"Look past the liquid capital; the daily routine dictates the transaction."*
